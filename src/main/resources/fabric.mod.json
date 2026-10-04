@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "us-preview",
+    "version": "${version}",
+    "name": "Ultimate Scaler Preview",
+    "description": "Experimental preview of Ultimate Scaler, built to validate terrain generation changes in the latest version",
+    "authors": [
+        "INF32768"
+    ],
+    "contact": {
+        "homepage": "https://github.com/INF32768/UltimateScalerPreview/",
+        "sources": "https://github.com/INF32768/UltimateScalerPreview/"
+    },
+    "license": "MIT",
+    "icon": "assets/us-preview/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "xyz.inf32768.uspreview.UltimateScalerPreview"
+        ],
+        "client": [
+            "xyz.inf32768.uspreview.client.UltimateScalerPreviewClient"
+        ]
+    },
+    "mixins": [
+        "us-preview.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "minecraft": ">=26.3-alpha.10 <=26.3",
+        "java": ">=25",
+        "fabric-api": "*"
+    }
+}

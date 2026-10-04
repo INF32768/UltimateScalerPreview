@@ -1,0 +1,32 @@
+{
+    "required": true,
+    "package": "xyz.inf32768.uspreview.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "mixins": [
+        "IMixinCodec",
+        "MixinBlendedNoise",
+        "MixinGradientNoise",
+        "MixinMth",
+        "reposition.IMixinNoise",
+        "reposition.MixinBlender",
+        "reposition.MixinDualNoiseProvider",
+        "reposition.MixinGeodeFeature",
+        "reposition.MixinMaterialRuleContextA1",
+        "reposition.MixinMaterialRuleContextA2",
+        "reposition.MixinMaterialSystem",
+        "reposition.MixinNoiseBasedStateProvider",
+        "reposition.MixinNoiseFunctionSampler",
+        "reposition.MixinPerlinNoise",
+        "reposition.MixinShiftB",
+        "reposition.MixinShiftedXyzSampler",
+        "reposition.MixinShiftedXzSampler",
+        "reposition.MixinSmearedPerlinNoise",
+        "reposition.MixinTheEndBiomeDataOverrides"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}
