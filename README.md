@@ -88,3 +88,13 @@
 - 此模组仅供验证与研究用途，不建议在生存存档中使用。
 - 不保证与任何其他模组兼容。
 - 主分支适配完成后，此预览版将停止维护。
+
+---
+
+## 许可证
+
+本项目使用 [MIT License](./LICENSE)。
+
+本项目的二进制文件中包含了 [mwanji/toml4j](https://github.com/mwanji/toml4j) 的部分文件，该仓库使用 [MIT License](./third-party-licenses/LICENSE-toml4j)。
+
+---
